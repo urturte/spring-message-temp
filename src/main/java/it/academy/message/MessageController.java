@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@CrossOrigin({"http://localhost:4200"})
+@CrossOrigin({"https://angular-message-temp.onrender.com"})
 @RequestMapping("messages")
 @AllArgsConstructor
 public class MessageController {
